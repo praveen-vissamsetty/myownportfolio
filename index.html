@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My own portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- font awsome link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="\fontawesome-free-5.15.2-web\fontawesome-free-5.15.2-web\css\all.css">
+    <!-- <link rel="stylesheet" href="\fontawesome-free-5.15.2-web\fontawesome-free-5.15.2-web\css\fontawesome.min.css">
+    <link rel="stylesheet" href="\fontawesome-free-5.15.2-web\fontawesome-free-5.15.2-web\css\fontawesome.css"> -->
+
+</head>
+<body>
+    <!-- navbar -->
+ <header>     
+<div class="navbar  text-white background" >
+    <h4 class="display-5-small marginleft" >Web Developer</h4>
+    <navigation>
+<div class="navbar justify-content-end marginright">
+<a href="#home" class="nav-link text-white" >Home</a>
+<a href="#about" class="nav-link text-white">About</a>
+<a href="#skills" class="nav-link text-white">Skills</a>
+<a href="#contact" class="nav-link text-white">Contact</a>
+</div>
+</div>
+</navigation >
+</header>
+<main>
+<section id="home">
+<div class="jumbotron jumbotron-fluid background">
+  <div class="container">
+      
+        <h3 class="text-white display-6-small" >Hello,my name is</h3>
+        <h2 class="display-2 text-white">Praveen</h2>
+        <h5 class="text-white display-4-small paddingbottom">Front-End Web Developer</h5>
+  </div>
+</div>
+</section>
+<!-- about page -->
+<section>
+<p class="line" id="about">About me</p>
+<div class="container" >
+    <div class="row">
+        <div class="col-6">
+         <img src="PRAVEENPHOTO.jpg" alt="web developer photo" height="290rem">
+        </div>
+        <div class="col-6">
+            <h6 class="webdesigner">I'm Praveen a Front-End Web <span>Designer</span></h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus soluta ipsum deleniti aliquam iusto. Repellendus iste nihil, excepturi deserunt itaque, eos numquam rerum quae minima illo officia alias soluta corrupti!
+            </p>
+            <button type="button" class="btn btn-success" >See my CV</button>
+        </div>
+    </div>
+</div>
+</section>
+<!-- my skills page -->
+<section>
+<p class="line" id="skills">My Skills</p>
+<div class="container myskills" >
+    <i class="fab fa-html5" aria-hidden="true"> HTML5</i>
+    <div class="progress">
+      <div class="progress-bar bg-success text-end html">
+           96%
+      </div>
+    </div><br>
+    <i class="fab fa-css3" aria-hidden="true"> CSS3</i> 
+    <div class="progress">
+      <div class="progress-bar bg-success text-end css">
+           96%
+      </div>
+    </div><br>
+    
+    <i class="fab fa-bootstrap" aria-hidden="true"> Bootstrap4</i>
+    <div class="progress">
+      <div class="progress-bar bg-success text-end bootstrap">
+           90%
+      </div>
+    </div><br>
+    <i class="fab fa-js-square" aria-hidden="true"> JavaScript</i>
+    <div class="progress">
+      <div class="progress-bar bg-success text-end javascript">
+           20%
+      </div>
+    </div>
+</div>
+</section>
+<!-- contact page -->
+<section>
+<p class="line" id="contact">Contact me</p>
+
+<div id="contact1">
+  
+  <div style="margin-top:4rem; ">
+    <form action="">
+      <p >Message me</p>
+       <input type="text" placeholder="Enter your name" minlength="3" maxlength="12" required ><br><br>
+  
+       <input type="Email" placeholder="Enter your email" required><br>
+   </div>
+  <div>
+       <textarea name="" id="" cols="40" rows="10" placeholder="message" style="margin-top:5rem ;"></textarea><br>
+       <button type="submit" class="btn btn-success" style="width:19rem;">Send message</button>
+    </form>
+  </div>
+</div>
+</section>
+<section>
+  <div class="uparrow">
+    <i class="fas fa-arrow-circle-up"></i>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="footer">
+   <div>
+       <p id="address"><i class="fas fa-map-marker-alt"></i> ADDRESS</p>
+       <p>D.no:20-6-3/25a,Ankammathalli Street,</p>
+       <p>Ayodhya Nagar,Vijayawada,</p>
+       <p>Andhra Pradesh</p>
+       <p>pin-code:520003</p>
+   </div>
+   <div class="mail">
+      <p id="contact3">CONTACT ME</p>
+      <a href="mailto:praveenvissamsetty@gmail.com" style="text-decoration: none; color: white;"><i class="fas fa-envelope"></i>  praveenvissamsetty@gmail.com</a><br>
+      <a href="tel:+91-9542271441"style="text-decoration: none; color: white;">&#128222;: 9542271441</a>
+   </div>
+   <div>
+      <p id="followme">FOLLOW ME ON</p>
+      <a href="https://www.facebook.com/praveenvissamsety" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-github"></i></a>
+   </div>
+   <!-- <div>
+      <p class="copyright">&copy;PRVEENVISSAMSETTY-2021</p>
+  </div> -->
+</div> 
+    
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+
+
+</html>
