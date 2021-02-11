@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar a:hover{
+text-decoration: underline;
+text-decoration-thickness: 0.4rem;
+font-weight: 600;
+}
+.navbar a{
+    font-family:'raleway',sans-serif;
+} 
+
+.background{
+    background-color: #047857;
+    
+ }
+ .marginleft{
+     margin-left: 5em;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .marginright{
+     margin-right: 6.5em;
+ }
+ h3,h5{
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    font-weight: bold;
+}
+.line { 
+    padding-top: 2em;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom-style: solid ; 
+    border-bottom-width: 2.5px; 
+    width: fit-content; 
+    margin-left: 45%;
+    border-color: #047857;
+    font-size: 2em;
+    font-weight: 600;
+} 
+.jumbotron{
+     padding-top: 6em;
+ }
+#about,#skills,#contact{
+     margin-top: 6.8rem;
+ }
+ .myskills{
+     padding: 0rem 2.5rem 2rem 2.5rem;
+     background-color:#F3F4F6;
+     border: #F3F4F6;
+     border-radius: 1em;
+ }
+ .myskills:hover{
+     box-shadow: 0.1em 0.5em 0.5em -0.4em #1F2937;
+ }
+ .paddingbottom{
+     padding-bottom: 18em;
+ }
+ img{
+     margin-top: 5em;
+ }
+ .webdesigner{
+     padding-top: 5em;
+     font-size: 1.5em;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 800;
+ }
+ .col-6 p{
+     line-height: 2;
+ }
+ span{
+     color: #047857;
+     font-size: 1em;
+ }
+ .html,.css{
+     width: 96%;
+     height: 1.3em;
+ }
+ .bootstrap{
+     width:92%;
+     height: 1.3em;
+ }
+ .javascript{
+     width: 20%;
+     height: 1.3em;
+ }
+ .fa-html5,.fa-css3,.fa-bootstrap,.fa-js-square{
+     font-size: 1em;
+     padding-top: 1.95rem;
+ }
+ .fa-html5{
+     color: #e34c26;
+ }
+ .fa-css3{
+     color: #264de4;
+ }
+ .fa-bootstrap{
+     color:#563d7c ;
+     font-weight: 800;
+ }
+ .fa-js-square{
+     color:#b8a003;
+     font-weight: 800;
+ }
+ button{
+    
+     background-color: #047857;
+     color: #fff;
+     padding: 0.5rem .5rem;
+ }
+ button:hover{
+     background-color:#fff;
+     color: #047857;
+ }
+ #contact1{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     border: 0.1em solid #F3F4F6;
+     border-radius: 1%;
+     border-width:fit-content;
+     background-color: #F3F4F6;
+     margin: 4rem 6rem 0 6rem;
+     padding-bottom: 4rem;
+     
+ }
+ #contact1:hover{
+     box-shadow: 0.1em 0.5em 0.5em -0.4em #1F2937;
+     transform: translateY(-0.1em);
+ }
+ input{
+     width: 20rem;
+     padding:0.5rem 0.3rem 0.5rem 0.3rem;
+    
+    }
+ form p{
+     font-size: 2.3rem;
+     font-family: 'Ubuntu', sans-serif;
+     border-bottom: 0.05em solid #047857;
+     width: fit-content;
+ }
+ form p::first-letter{
+     font-size: 3rem;
+     font-weight: 500;
+ }
+.uparrow{
+    display: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+footer div:nth-of-type(1){
+    line-height: normal;
+}
+.fa-facebook-square,.fa-linkedin,.fa-github{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.fa-linkedin,.fa-github{
+    padding-left: 0.7rem;
+}
+.fa-facebook-square:hover,.fa-linkedin:hover,.fa-github:hover{
+    color: #2563EB;
+}
+#address,#contact3,#followme{
+    font-weight: 800;
+ }
+  /* div:nth-of-type(4) {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}   */
